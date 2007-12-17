@@ -9,7 +9,6 @@ Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: PyQt >= 3.0
 Url: http://kodos.sourceforge.net
