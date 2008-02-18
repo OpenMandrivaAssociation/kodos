@@ -2,7 +2,7 @@
 %define version 2.4.9
 %define release %mkrel 2
 
-Summary: Kodos is a visual regular expression editor
+Summary: Visual regular expression editor
 Name: %{name}
 Version: %{version}
 Release: %{release}
