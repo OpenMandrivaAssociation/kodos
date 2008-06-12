@@ -63,11 +63,15 @@ cp ./images/kodos.png $RPM_BUILD_ROOT/%_iconsdir/
 convert -size 16x16 ./images/kodos.png $RPM_BUILD_ROOT/%_miconsdir/%name.png
 convert -size 64x64 ./images/kodos.png $RPM_BUILD_ROOT/%_liconsdir/%name.png
 
+%if %mdkversion < 200900
 %postun
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
 %clean
 rm -rf $RPM_BUILD_ROOT
