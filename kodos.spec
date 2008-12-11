@@ -16,7 +16,7 @@ Url: http://kodos.sourceforge.net
 
 %py_requires -d
 
-BuildRequires: ImageMagick
+BuildRequires: imagemagick
 BuildRequires: PyQt
 
 %description
