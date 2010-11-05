@@ -1,6 +1,6 @@
 %define name kodos
 %define version 2.4.9
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary: Visual regular expression editor
 Name: %{name}
