@@ -88,3 +88,74 @@ rm -rf $RPM_BUILD_ROOT
 %{_liconsdir}/*png
 
 
+
+
+%changelog
+* Tue Nov 23 2010 Funda Wang <fwang@mandriva.org> 2.4.9-9mdv2011.0
++ Revision: 599899
+- rebuild
+- rebuild for py2.7
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 2.4.9-6mdv2009.1
++ Revision: 325683
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 2.4.9-5mdv2009.0
++ Revision: 247813
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 2.4.9-3mdv2008.1
++ Revision: 170931
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 2.4.9-2mdv2008.1
++ Revision: 140863
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+
+* Sat Dec 02 2006 Olivier Thauvin <nanardon@mandriva.org> 2.4.9-2mdv2007.0
++ Revision: 90117
+- rebuild
+
+  + Michael Scherer <misc@mandriva.org>
+    - Import kodos
+
+* Fri Jul 21 2006 Michael Scherer <misc@mandriva.org> 2.4.9-1mdv2007.0
+- New version 2.4.9
+- xdg menu
+
+* Fri Sep 30 2005 Michael Scherer <misc@mandriva.org> 2.4.7-1mdk
+- New release 2.4.7
+- use new python macro
+- add changelog
+
+* Thu Aug 25 2005 Michael Scherer <misc@mandriva.org> 2.4.5-5mdk
+- fix shared directory
+
+* Fri Jun 03 2005 Michael Scherer <misc@mandriva.org> 2.4.5-4mdk
+- mkrel
+- reupload to fix missing srpm
+
+* Tue Mar 01 2005 Michael Scherer <misc@mandrake.org> 2.4.5-3mdk
+- fix issues with latest pyqt
+
+* Sun Dec 05 2004 Michael Scherer <misc@mandrake.org> 2.4.5-2mdk
+- Rebuild for new python
+
+* Fri Aug 27 2004 Michael Scherer <misc@mandrake.org> 2.4.5-1mdk
+- first Mandrakelinux package, based on spec made by Phil Schwartz <phil_schwartz@sourceforge.net>.
+
