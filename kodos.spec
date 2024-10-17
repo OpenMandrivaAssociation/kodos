@@ -12,7 +12,7 @@ Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: PyQt >= 3.0
-Url: http://kodos.sourceforge.net
+Url: https://kodos.sourceforge.net
 
 %py_requires -d
 
